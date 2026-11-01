@@ -1,0 +1,2 @@
+QA navegador Edge: 5 diapositivas; navegación por teclado; límites; notas; imágenes locales; sin errores JavaScript; viewport móvil 390 x 844 sin desborde horizontal.
+PPTX: validación de integridad, geometría, fuentes y reimportación aprobada; revisión visual de las cinco diapositivas. Transiciones presentes en el archivo; no se verificó reproducción en PowerPoint.

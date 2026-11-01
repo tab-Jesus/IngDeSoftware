@@ -2,6 +2,18 @@
 
 **Autor: Jesus Davod Campo. Universidad de Cartagena. Ingeniería de Software.**
 
+Repositorio: [tab-Jesus/IngDeSoftware](https://github.com/tab-Jesus/IngDeSoftware).
+
+## Materiales de entrega
+
+- [Informe académico en PDF, blanco y negro](documentos/Informe_Unidad_3_Jesus_Davod_Campo.pdf)
+- [Presentación animada para navegador](presentacion/index.html): descargar el repositorio y abrir este archivo.
+- [Presentación editable en PowerPoint](presentacion/Presentacion_Nomina.pptx), con transiciones de fundido.
+- [Guion y controles de presentación](presentacion/README.md)
+- [Enunciado original](enunciado/ACTIVIDAD_UNIDAD_3.pdf)
+
+![Portada de la presentación](presentacion/preview.png)
+
 Solución académica en Python 3.10 o superior, con programación orientada a objetos,
 cuatro tipos de empleados, políticas configurables y 25 pruebas unitarias.
 La biblioteca estándar basta para ejecutar el sistema y sus pruebas.
@@ -72,18 +84,18 @@ La política concentra porcentajes y evita repetición. Una prueba detectó un e
 del valor esperado del costo con alimentación; se corrigió el oráculo, manteniendo
 el beneficio de $1.000.000 definido por la guía.
 
-## GitHub y exposición: pendientes externos
+## GitHub y exposición
 
-El paquete contiene un repositorio Git local con cambios reales. No prueba actividad
-de integrantes de un CIPA. La publicación remota y la grabación no se han realizado.
-Para publicar, cree un repositorio vacío en su cuenta de GitHub y ejecute:
+El código, informe, presentación, enunciado y evidencias se organizan en este
+repositorio. El historial registra cambios reales; no acredita participación
+de integrantes adicionales del CIPA. Para obtener una copia:
 
 ```powershell
-git remote add origin https://github.com/USUARIO/REPOSITORIO.git
-git push -u origin main
+git clone https://github.com/tab-Jesus/IngDeSoftware.git
+cd IngDeSoftware
 ```
 
-Sustituya USUARIO y REPOSITORIO por sus datos; no copie la URL de ejemplo como evidencia.
+La grabación de la exposición en YouTube sigue pendiente.
 Grabe el guion con su voz, mostrando ejecución y pruebas; publique en YouTube y
 entregue las URL reales en SIMA. La consigna dice entrega CIPA: confirme con el
 docente si admite entrega individual o incorpore únicamente integrantes reales.
