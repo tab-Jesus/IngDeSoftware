@@ -1,0 +1,30 @@
+test_commission_manual_oracle (test_payroll.PayrollTests.test_commission_manual_oracle) ... ok
+test_configurable_deductions (test_payroll.PayrollTests.test_configurable_deductions) ... ok
+test_contract_boundaries (test_payroll.PayrollTests.test_contract_boundaries) ... ok
+test_five_years_no_bonus (test_payroll.PayrollTests.test_five_years_no_bonus) ... ok
+test_food_not_deducted (test_payroll.PayrollTests.test_food_not_deducted) ... ok
+test_forty_hours (test_payroll.PayrollTests.test_forty_hours) ... ok
+test_hourly_manual_oracle (test_payroll.PayrollTests.test_hourly_manual_oracle) ... ok
+test_invalid_commission (test_payroll.PayrollTests.test_invalid_commission) ... ok
+test_invalid_name (test_payroll.PayrollTests.test_invalid_name) ... ok
+test_invalid_policy (test_payroll.PayrollTests.test_invalid_policy) ... ok
+test_inverted_contract (test_payroll.PayrollTests.test_inverted_contract) ... ok
+test_negative_net_rejected (test_payroll.PayrollTests.test_negative_net_rejected) ... ok
+test_negative_values (test_payroll.PayrollTests.test_negative_values) ... ok
+test_negative_years (test_payroll.PayrollTests.test_negative_years) ... ok
+test_one_year_no_savings (test_payroll.PayrollTests.test_one_year_no_savings) ... ok
+test_outside_contract (test_payroll.PayrollTests.test_outside_contract) ... ok
+test_over_five_bonus (test_payroll.PayrollTests.test_over_five_bonus) ... ok
+test_round_half_up (test_payroll.PayrollTests.test_round_half_up) ... ok
+test_salaried_manual_oracle (test_payroll.PayrollTests.test_salaried_manual_oracle) ... ok
+test_sales_above_threshold (test_payroll.PayrollTests.test_sales_above_threshold) ... ok
+test_sales_threshold (test_payroll.PayrollTests.test_sales_threshold) ... ok
+test_savings_declined (test_payroll.PayrollTests.test_savings_declined) ... ok
+test_temporary_manual_oracle (test_payroll.PayrollTests.test_temporary_manual_oracle) ... ok
+test_zero_hours (test_payroll.PayrollTests.test_zero_hours) ... ok
+test_zero_sales (test_payroll.PayrollTests.test_zero_sales) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.001s
+
+OK
