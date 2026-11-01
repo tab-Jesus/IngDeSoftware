@@ -1,36 +1,22 @@
 [
   {
-    "title": "Sistema de nómina",
-    "subtitle": "Programación orientada a objetos",
-    "body": "Jesus Davod Campo\nIngeniería de Software · Universidad de Cartagena",
-    "image": "documentos.jpg",
-    "note": "Presentar el propósito: calcular una nómina según el tipo de empleado. Los datos de demostración son ficticios."
+    "title": "Nómina con reglas claras.",
+    "note": "Buenos días. Mi nombre es Jesus Davod Campo y voy a presentar el sistema de nómina desarrollado para la Unidad Tres de Ingeniería de Software.\n\nEl objetivo es calcular cuánto recibe un empleado según su modalidad de contratación, considerando ingresos, beneficios y deducciones. Para resolverlo utilicé Python y programación orientada a objetos, separando las reglas del negocio de la presentación de los resultados.\n\n"
   },
   {
-    "title": "Cuatro formas de calcular el salario",
-    "subtitle": "Una regla para cada modalidad",
-    "body": "Asalariado: fijo + 10% después de 5 años.\nPor horas: extras sobre 40, pagadas a 1,5×.\nComisión: base + comisión + bono si supera $20 millones.\nTemporal: salario fijo durante el contrato.",
-    "image": "oficina.jpg",
-    "note": "Aclarar que los umbrales son estrictos. Alimentación de un millón para permanentes. Fondo del 2% para empleados por horas con más de un año que acepten."
+    "title": "Cuatro empleados. Distintas reglas.",
+    "note": "El sistema contempla cuatro tipos de empleados. El asalariado recibe un salario fijo y un bono del diez por ciento cuando supera cinco años en la empresa. El empleado por horas recibe su tarifa normal hasta cuarenta horas; las adicionales se pagan a una vez y media esa tarifa.\n\nEl empleado por comisión recibe salario base más un porcentaje de sus ventas. Si estas superan veinte millones de pesos, obtiene un bono adicional del tres por ciento sobre las ventas. Finalmente, el temporal recibe un salario fijo dentro de las fechas de su contrato.\n\nTambién se consideran alimentación para los permanentes y ahorro voluntario para empleados por horas que cumplen la antigüedad requerida.\n\n"
   },
   {
-    "title": "Cada clase tiene una responsabilidad",
-    "subtitle": "Diseño con SOLID",
-    "body": "Employee define el contrato común.\nCada modalidad calcula sus ingresos.\nDeductionPolicy aplica las tasas.\nPayrollService coordina el cálculo.",
-    "image": "codigo.png",
-    "note": "Explicar herencia, abstracción y polimorfismo. La validación del contrato temporal se delegó a validate_period para evitar condicionales por tipo en el servicio."
+    "title": "Cada responsabilidad, en su lugar.",
+    "note": "La clase Employee define el comportamiento común y cada modalidad implementa su propia forma de calcular ingresos. Esto permite usar polimorfismo y agregar nuevos tipos de empleado sin introducir condicionales por tipo en el servicio.\n\nLos porcentajes de descuentos están separados en DeductionPolicy, mientras PayrollService coordina el cálculo. Esta distribución aplica responsabilidad única e inversión de dependencias.\n\nDurante la refactorización, la validación del período temporal se trasladó a la entidad correspondiente. Así, el servicio quedó más sencillo y las reglas permanecieron verificables mediante pruebas.\n\n"
   },
   {
-    "title": "De 45 horas a un neto de $855.000",
-    "subtitle": "Ejemplo calculado con tarifa de $20.000",
-    "body": "40 horas normales          $800.000\n5 horas extras                $150.000\nSalario bruto                  $950.000\nSeguro + pensión              −$76.000\nAhorro voluntario              −$19.000\nNeto                               $855.000",
-    "note": "Supuestos académicos: seguro 4% y pensión 4%; ARL de ejemplo 0,522% a cargo de la empresa. En este caso ARL: $4.959. Las tasas son configurables. No recibe bono ni alimentación."
+    "title": "45 horas. Un cálculo verificable.",
+    "note": "En este ejemplo, el empleado trabaja cuarenta y cinco horas a una tarifa de veinte mil pesos. Las cuarenta horas normales suman ochocientos mil pesos y las cinco extras suman ciento cincuenta mil. El salario bruto es, por tanto, de novecientos cincuenta mil pesos.\n\nPara el ejercicio se asume un cuatro por ciento de seguro y otro cuatro por ciento de pensión. Cada descuento equivale a treinta y ocho mil pesos. Como el empleado cumple los requisitos y acepta el fondo, también se descuentan diecinueve mil pesos de ahorro.\n\nEl resultado es un neto de ochocientos cincuenta y cinco mil pesos. La ARL se registra aparte como costo empresarial. Estos supuestos están documentados y las tasas pueden configurarse.\n\n"
   },
   {
-    "title": "25 pruebas aprobadas",
-    "subtitle": "Resultados reproducibles",
-    "body": "Cálculos verificados con ejemplos manuales.\nPruebas en los límites de las reglas.\nValidación de entradas y neto negativo.\nCódigo, informe y evidencias en GitHub.",
-    "image": "pruebas.png",
-    "note": "Metodología incremental: análisis, implementación, pruebas y documentación. Mostrar el repositorio y ejecutar python -m unittest discover -s tests -v si hay tiempo."
+    "title": "25 pruebas aprobadas.",
+    "note": "La solución cuenta con veinticinco pruebas unitarias aprobadas. Verifican cálculos manuales, límites de antigüedad, horas y ventas, además del rechazo de entradas inválidas y salarios netos negativos.\n\nEl desarrollo se organizó en incrementos de análisis, implementación, verificación y documentación. En GitHub están disponibles el código, el informe, los resultados de ejemplo y los materiales de exposición.\n\nCon este proyecto se demuestra cómo la programación orientada a objetos y los principios SOLID ayudan a organizar reglas diferentes y comprobar su funcionamiento. Como mejora futura se podría incorporar una interfaz de captura y almacenamiento de empleados. Muchas gracias."
   }
 ]

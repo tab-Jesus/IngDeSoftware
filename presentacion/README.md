@@ -1,6 +1,10 @@
 # Presentación del informe
 
-Cinco diapositivas para una exposición breve de unos tres minutos.
+Cinco diapositivas rediseñadas para una exposición de **tres a cuatro minutos**.
+
+**Versión actual:** [PowerPoint mejorado](Presentacion_Nomina_Mejorada.pptx) y [presentación animada](index.html).
+
+**Texto para exponer:** [guion de 3 a 4 minutos](guion_3_4_minutos.md), también incluido en las notas de las diapositivas.
 
 ## Abrir
 
@@ -14,21 +18,21 @@ mostrar las imágenes ni las animaciones.
 - Notas: mostrar las indicaciones para el expositor. Ciérrelas al grabar.
 - El navegador respeta la preferencia del sistema de reducir movimiento.
 
-`Presentacion_Nomina.pptx` es la copia editable de cinco diapositivas, con notas
+`Presentacion_Nomina_Mejorada.pptx` es la copia editable de cinco diapositivas, con notas
 del expositor y transición de fundido. Las entradas escalonadas del texto
 pertenecen a la versión HTML. No se ha grabado un video.
 
 ## Guion breve
 
-1. **Objetivo, 20 s.** Presentarse y explicar que el proyecto calcula ingresos,
+1. **Objetivo, 30 s.** Presentarse y explicar que el proyecto calcula ingresos,
    descuentos y beneficios de cuatro modalidades de empleado.
-2. **Reglas, 40 s.** Explicar asalariado, horas, comisión y temporal. Aclarar que
+2. **Reglas, 50 s.** Explicar asalariado, horas, comisión y temporal. Aclarar que
    los umbrales de antigüedad y ventas son estrictos.
-3. **Diseño, 35 s.** Explicar el contrato Employee, las clases especializadas,
+3. **Diseño, 40 s.** Explicar el contrato Employee, las clases especializadas,
    la política de descuentos y el servicio. Relacionarlos con SOLID.
-4. **Ejemplo, 45 s.** Explicar 40 horas normales más cinco extras, el bruto de
+4. **Ejemplo, 55 s.** Explicar 40 horas normales más cinco extras, el bruto de
    $950.000 y el neto de $855.000. Mencionar los supuestos de tasas y ahorro.
-5. **Validación, 30 s.** Mostrar las 25 pruebas aprobadas y el repositorio.
+5. **Validación, 45 s.** Mostrar las 25 pruebas aprobadas y el repositorio.
    Explicar el desarrollo incremental: análisis, construcción y verificación.
 
 ## Fuentes
