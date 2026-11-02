@@ -28,6 +28,7 @@ Una solución en Python para calcular salarios, beneficios y deducciones de cuat
 | [Presentación animada · HTML](presentacion/index.html) | Cinco diapositivas con imágenes, animaciones, notas y pantalla completa. |
 | [Presentación editable · PowerPoint](presentacion/Presentacion_Nomina_Mejorada.pptx) | Diapositivas con notas del expositor y transiciones de fundido. |
 | [Guion de exposición](presentacion/guion_3_4_minutos.md) | Texto organizado por diapositiva para una presentación de tres a cuatro minutos. |
+| [Video de exposición · Google Drive](https://drive.google.com/drive/folders/12X3QH36apLfZmf3hXu9CXgjdpZZKqqcB?hl=es) | Enlace de acceso a la exposición del proyecto. |
 | [Resultados de ejemplo · CSV](evidencia/nomina_ejemplo.csv) | Desglose de ingresos, deducciones, beneficios y costo empresarial. |
 | [Registro de pruebas](evidencia/pruebas.txt) | Resultado de la ejecución local de las 25 pruebas unitarias. |
 | [Enunciado original](enunciado/ACTIVIDAD_UNIDAD_3.pdf) | Reglas y requisitos de la actividad. |
@@ -155,6 +156,6 @@ Los generadores de `tools/` usan dependencias adicionales y rutas del entorno de
 **Jesus Davod Campo** · [@Jesussscy](https://github.com/Jesussscy)  
 Ingeniería de Software · Universidad de Cartagena
 
-La publicación del video en YouTube está pendiente. La guía solicita entrega CIPA; la modalidad debe confirmarse con el docente.
+[Video de exposición en Google Drive](https://drive.google.com/drive/folders/12X3QH36apLfZmf3hXu9CXgjdpZZKqqcB?hl=es)
 
 </div>

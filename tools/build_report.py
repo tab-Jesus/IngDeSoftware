@@ -54,6 +54,8 @@ story.append(Spacer(1, 25))
 cp('Cartagena de Indias<br/>1 de noviembre de 2026')
 story.append(Spacer(1, 35))
 cp('<b>Repositorio del proyecto</b><br/><link href="https://github.com/tab-Jesus/IngDeSoftware">https://github.com/tab-Jesus/IngDeSoftware</link>')
+story.append(Spacer(1, 12))
+cp('<b>Video de exposición</b><br/><link href="https://drive.google.com/drive/folders/12X3QH36apLfZmf3hXu9CXgjdpZZKqqcB?hl=es">Abrir video de exposición en Google Drive</link>')
 
 page()
 h('1. Introducción, objetivos y requisitos')

@@ -20,7 +20,9 @@ mostrar las imágenes ni las animaciones.
 
 `Presentacion_Nomina_Mejorada.pptx` es la copia editable de cinco diapositivas, con notas
 del expositor y transición de fundido. Las entradas escalonadas del texto
-pertenecen a la versión HTML. No se ha grabado un video.
+pertenecen a la versión HTML.
+
+[Video de exposición en Google Drive](https://drive.google.com/drive/folders/12X3QH36apLfZmf3hXu9CXgjdpZZKqqcB?hl=es).
 
 ## Guion breve
 
